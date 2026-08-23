@@ -1,5 +1,6 @@
-import express, { type Express, type Request, type Response } from 'express';
+import express, { type Express } from "express";
 import cors from "cors";
+import projectRouter from "../routes/project.routes.js";
 
 const app: Express = express();
 
@@ -7,9 +8,7 @@ const app: Express = express();
 app.use(express.json());
 app.use(cors());
 
-app.get('/', (req: Request, res: Response) => {
-  res.send('Book Directory Project Running!');
-});
-
+// Router
+app.use("/",projectRouter);
 
 export default app;
