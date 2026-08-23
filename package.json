@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/server.js",
   "scripts": {
-    "build":"tsc",
+    "build": "tsc",
     "start": "node ./dist/server.js",
     "dev": "tsx watch src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/EmonHira135923/Book-Directory-Project/issues"
   },
-  "homepage": "https://github.com/EmonHira135923/Book-Directory-Project#readme"
+  "homepage": "https://github.com/EmonHira135923/Book-Directory-Project#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "tsx": "^4.23.12"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongodb": "^7.5.0"
+  }
 }
