@@ -1,0 +1,24 @@
+{
+  "name": "book-directory-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/server.js",
+  "scripts": {
+    "build":"tsc",
+    "start": "node ./dist/server.js",
+    "dev": "tsx watch src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmonHira135923/Book-Directory-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/EmonHira135923/Book-Directory-Project/issues"
+  },
+  "homepage": "https://github.com/EmonHira135923/Book-Directory-Project#readme"
+}
