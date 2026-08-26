@@ -493,12 +493,3 @@ npm start
 ## 📝 License
 
 This project is licensed under the [ISC License](https://www.google.com/search?q=LICENSE).
-
-```
-
-<ElicitationsGroup message="Where would you like to take your TypeScript backend next?">
-  <Elicitation label="Add Zod validation for runtime input validation" query="Show how to integrate Zod validation middleware for Express request payloads with TypeScript types."/>
-  <Elicitation label="Implement JWT authentication & custom auth middleware" query="Show how to add JWT authentication, custom Auth request interfaces, and password hashing with bcrypt."/>
-</ElicitationsGroup>
-
-```
