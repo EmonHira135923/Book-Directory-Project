@@ -16,12 +16,12 @@ const bookSchema = new Schema<books>(
   {
     title: {
       type: String,
-      require: true,
+      required: true,
       trim: true,
     },
     author: {
       type: String,
-      require: true,
+      required: true,
       trim: true,
     },
     description: {
@@ -30,22 +30,22 @@ const bookSchema = new Schema<books>(
     },
     genre: {
       type: String,
-      require: true,
+      required: true,
       trim: true,
     },
     publicationYear: {
       type: Number,
-      require: true,
+      required: true,
     },
     isbn: {
       type: String,
       trim: true,
-      require: true,
+      required: true,
       unique: true,
     },
     price: {
       type: Number,
-      require: true,
+      required: true,
       min: 0,
     },
     isAvailable: Boolean,
